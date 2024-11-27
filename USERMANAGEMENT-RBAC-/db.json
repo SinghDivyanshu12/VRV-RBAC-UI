@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "name": "Alice Williams",
+      "email": "alice.williams@example.com",
+      "role": "Admin",
+      "status": "active",
+      "id": "d4a1"
+    },
+    {
+      "id": "ae56",
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "role": "User",
+      "status": "active"
+    },
+    {
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "role": "Dev",
+      "status": "inactive",
+      "id": "e7d3"
+    },
+    {
+      "id": "91c2",
+      "name": "David Green",
+      "email": "david.green@example.com",
+      "role": "User",
+      "status": "active"
+    },
+    {
+      "name": "Emma White",
+      "email": "emma.white@example.com",
+      "role": "User",
+      "status": "inactive",
+      "id": "83e9"
+    },
+    {
+      "id": "5f1b",
+      "name": "Frank Black",
+      "email": "frank.black@example.com",
+      "role": "Dev",
+      "status": "active"
+    },
+    {
+      "id": "7d09",
+      "name": "Grace Adams",
+      "email": "grace.adams@example.com",
+      "role": "Tester",
+      "status": "inactive"
+    }
+  ],
+  "roles": [
+    {
+      "id": "a3f5",
+      "name": "Admin",
+      "permissions": [
+        "create",
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "name": "Dev",
+      "permissions": [
+        "read",
+        "write"
+      ],
+      "id": "b2c4"
+    },
+    {
+      "id": "4d3e",
+      "name": "User",
+      "permissions": [
+        "read"
+      ]
+    },
+    {
+      "name": "Tester",
+      "permissions": [
+        "read",
+        "write"
+      ],
+      "id": "9f78"
+    }
+  ]
+}
